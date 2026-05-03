@@ -75,32 +75,43 @@ Running Web Application
 
 ## Sample Commands Used
 
-```bash
-docker build -t devops-app .
-docker save devops-app -o devops-app.tar
-scp devops-app.tar ec2-user@server:/home/ec2-user/
-ssh ec2-user@server
-docker load -i devops-app.tar
-docker run -d -p 5000:5000 devops-app
+- docker build -t devops-app .
+- docker save devops-app -o devops-app.tar
+- scp devops-app.tar ec2-user@server:/home/ec2-user/
+- ssh ec2-user@server
+- docker load -i devops-app.tar
+- docker run -d -p 5000:5000 devops-app
 
 ---
 
-Results
-Automated deployment workflow
-Faster release cycle
-Repeatable container deployments
-Improved CI/CD understanding
-Key Learnings
-Jenkins pipeline stages
-Docker image lifecycle
-SSH deployment automation
-Linux troubleshooting
-Future Enhancements
-Push images to AWS ECR
-Add rollback stage
-Add testing stage
-Deploy to Kubernetes
-Author
+## Results
 
-Shaik Abdul Rasheeq
+- Automated deployment workflow
+- Faster release cycle
+- Repeatable container deployments
+- Improved CI/CD understanding
+
+---
+
+## Key Learnings
+
+- Jenkins pipeline stages
+- Docker image lifecycle
+- SSH deployment automation
+- Linux troubleshooting
+
+---
+
+## Future Enhancements
+
+- Push images to AWS ECR
+- Add rollback stage
+- Add testing stage
+- Deploy to Kubernetes
+
+---
+
+## Author
+
+Shaik Abdul Rasheeq  
 Cloud / DevOps Engineer
