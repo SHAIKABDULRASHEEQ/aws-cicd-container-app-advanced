@@ -1,4 +1,4 @@
-# AWS-Jenkins-Docker-CI/CD
+# AWS Jenkins Docker CI/CD Pipeline
 
 Production-style CI/CD pipeline built on AWS using Jenkins, Docker, GitHub, and Linux servers to automate application build and deployment.
 
